@@ -12,7 +12,7 @@ project( HelloSLAM )
 add_executable( helloSLAM helloSLAM.cpp )
 
 # 添加一个库
-# add_library( hello libHelloSLAM.cpp )
+add_library( hello libHelloSLAM.cpp )
 # 共享库
 # add_library( hello_shared SHARED libHelloSLAM.cpp )
 
