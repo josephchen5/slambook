@@ -21,6 +21,8 @@ include_directories( "/usr/include/eigen3" )
 # 语法：add_executable( 程序名 源代码文件 ）
 # add_executable( helloSLAM helloSLAM.cpp )
 add_executable( eigenMatrix eigenMatrix.cpp )
+add_executable( eigenGeometry eigenGeometry.cpp )
+
 
 # 添加一个库
 # add_library( hello libHelloSLAM.cpp )
